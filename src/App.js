@@ -11,20 +11,20 @@ import Education from "./pages/Education";
 import Experience from "./pages/Experience";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
-        <Routes>                                    // utilize Routes from react-router-dom
-          <Route path="/" element={<Home />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <Switch>                                    // utilize Routes from react-router-dom
+          <Route path="/" exact component={Home} />
+          <Route path="/education" exact component={Education} />
+          <Route path="/experience" exact component={Experience} />
+          <Route path="/about" exact component={About} />
+          <Route path="/contact" exact component={Contact} />
+        </Switch>
         <Footer />
       </Router>
     </div>
