@@ -13,12 +13,14 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+
+// utilize BrowserRouter, Route, and Switch from react-router-dom
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
-        <Switch>                                    // utilize Routes from react-router-dom
+        <Switch>                                    
           <Route path="/" exact component={Home} />
           <Route path="/education" exact component={Education} />
           <Route path="/experience" exact component={Experience} />
