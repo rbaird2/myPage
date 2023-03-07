@@ -1,0 +1,54 @@
+.education {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+
+.education .leftSide {
+  height: 100%;
+  flex: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.education .rightSide {
+  height: 100%;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.education .rightSide h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 50;
+  font-size:70px;
+  margin-left: 30px;
+}
+
+.education .rightSide h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 50;
+  font-size:20px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.rightSide .skillList {
+  width: 30vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: left;
+}
+
+.rightSide .skillList .skill p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 30px;
+}
