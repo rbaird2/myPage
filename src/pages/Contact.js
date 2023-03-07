@@ -1,6 +1,8 @@
 import Email from "../assets/email.jpg";
 import "../styles/Contact.css";
 
+
+   // form code from PedroTech
 function Contact() {
   return (
     <div className="contact">
@@ -12,7 +14,7 @@ function Contact() {
       <div className="rightSide">
         <h1>Contact Me</h1>
 
-        // form code from PedroTech
+     
         <form id="contact-form" method="POST">
           <label htmlFor="name">Full Name</label>
           <input name="name" placeholder="Enter full name..." type="text" />
