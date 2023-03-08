@@ -1,4 +1,4 @@
-import Zen from "../assets/zen.jpg";
+import Zen from "../assets/zen3.jpg";
 import "../styles/About.css";
 function About() {
   return (
