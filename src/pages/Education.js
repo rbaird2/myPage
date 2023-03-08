@@ -3,6 +3,8 @@ import "../styles/Education.css";
 import { SkillList } from "../helpers/SkillList";
 import SkillItem from "../helpers/SkillItem";
 import Information from "../components/Information";
+import React from "react";
+
 
 function Education() {
   return (

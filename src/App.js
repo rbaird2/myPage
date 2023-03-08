@@ -12,6 +12,7 @@ import Experience from "./pages/Experience";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React from "react";
 
 
 // utilize BrowserRouter, Route, and Switch from react-router-dom

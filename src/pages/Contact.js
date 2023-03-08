@@ -1,5 +1,7 @@
 import Email from "../assets/email.jpg";
 import "../styles/Contact.css";
+import React from "react";
+
 
 
    // form code borrowed and altered from PedroTech

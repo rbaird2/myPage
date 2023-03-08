@@ -1,3 +1,4 @@
+import React from "react";
 function SkillItem({name}) {
     return (
       <div className="skill">

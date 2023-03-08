@@ -1,4 +1,6 @@
 import "../styles/Experience.css";
+import React from "react";
+
 
 function Experience() {
   return (

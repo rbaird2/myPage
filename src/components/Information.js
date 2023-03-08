@@ -1,4 +1,6 @@
 import "../styles/Information.css";
+import React from "react";
+
 
 function Information(props) {
   return (

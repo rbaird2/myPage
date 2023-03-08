@@ -1,3 +1,5 @@
+import React from "react";
+
 import Zen from "../assets/zen3.jpg";
 import "../styles/About.css";
 function About() {
