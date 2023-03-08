@@ -1,19 +1,19 @@
 {
-  "files": {
-    "main.css": "/react-gh-pages/static/css/main.33fe52fa.css",
-    "main.js": "/react-gh-pages/static/js/main.a50ca717.js",
-    "static/js/787.0f7797b3.chunk.js": "/react-gh-pages/static/js/787.0f7797b3.chunk.js",
-    "static/media/email.jpg": "/react-gh-pages/static/media/email.4bb7b3f7820adaf1d8a8.jpg",
-    "static/media/zen3.jpg": "/react-gh-pages/static/media/zen3.4c634ede571e09c780d1.jpg",
-    "static/media/asu.jpg": "/react-gh-pages/static/media/asu.64e4b4dd0b7f4e11ad75.jpg",
-    "static/media/logo.png": "/react-gh-pages/static/media/logo.2bb30d1ba935ced419bb.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.33fe52fa.css.map": "/react-gh-pages/static/css/main.33fe52fa.css.map",
-    "main.a50ca717.js.map": "/react-gh-pages/static/js/main.a50ca717.js.map",
-    "787.0f7797b3.chunk.js.map": "/react-gh-pages/static/js/787.0f7797b3.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.33fe52fa.css",
-    "static/js/main.a50ca717.js"
-  ]
+  "main.css": "/myPage/static/css/main.a0700752.chunk.css",
+  "main.js": "/myPage/static/js/main.67ec7a8f.chunk.js",
+  "main.js.map": "/myPage/static/js/main.67ec7a8f.chunk.js.map",
+  "static/js/1.4f2178a2.chunk.js": "/myPage/static/js/1.4f2178a2.chunk.js",
+  "static/js/1.4f2178a2.chunk.js.map": "/myPage/static/js/1.4f2178a2.chunk.js.map",
+  "static/js/2.be13e1e4.chunk.js": "/myPage/static/js/2.be13e1e4.chunk.js",
+  "static/js/2.be13e1e4.chunk.js.map": "/myPage/static/js/2.be13e1e4.chunk.js.map",
+  "runtime~main.js": "/myPage/static/js/runtime~main.9f48b456.js",
+  "runtime~main.js.map": "/myPage/static/js/runtime~main.9f48b456.js.map",
+  "static/media/zen3.jpg": "/myPage/static/media/zen3.c8169355.jpg",
+  "static/media/logo.png": "/myPage/static/media/logo.d01e2fce.png",
+  "static/media/asu.jpg": "/myPage/static/media/asu.709807e6.jpg",
+  "static/media/email.jpg": "/myPage/static/media/email.eac29557.jpg",
+  "static/css/main.a0700752.chunk.css.map": "/myPage/static/css/main.a0700752.chunk.css.map",
+  "index.html": "/myPage/index.html",
+  "precache-manifest.ab2a7df0d2b9d6ffb087b93934af39a3.js": "/myPage/precache-manifest.ab2a7df0d2b9d6ffb087b93934af39a3.js",
+  "service-worker.js": "/myPage/service-worker.js"
 }
