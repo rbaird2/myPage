@@ -61,4 +61,19 @@ export const SkillList = [
     type: "Integrated Developmental Environment"  
 
   },
+  {
+    name: "SQL",
+    type: "Programming Language"  
+
+  },
+  {
+    name: "XML",
+    type: "Markup Language"  
+
+  },
+  {
+    name: "Perl",
+    type: "Scripting Language"  
+
+  },
 ];
