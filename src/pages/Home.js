@@ -9,6 +9,7 @@ function Home() {
     <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
       <div className="headerContainer">
         <h1> Raymond Lee Baird </h1>
+        <h2> ReactJS Website Project</h2>
         <Button variant="contained" color="primary" onClick={() => alert('Hello to you.')}>Hello</Button>
 
         
