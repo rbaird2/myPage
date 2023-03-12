@@ -34,7 +34,7 @@ function Home() {
           <DialogContent>
             <DialogContentText id="alert-dialog-description">
               Hello.<br/>
-              This site was created using mostly ReactJS, along with MUI, CSS, and HTML5. The GitHub repository can be reached
+              This front end was created using ReactJS, MUI, CSS, and HTML5. The GitHub repository can be reached
               <ExternalLink href="https://github.com/rbaird2/myPage"> HERE</ExternalLink>
             </DialogContentText>
           </DialogContent>
