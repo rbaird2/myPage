@@ -16,7 +16,7 @@ function Contact() {
   const [textEmail, setEmailState] = useState("");
   const [textMessage, setMessageState] = useState("");
 
-  const handleOpenDialog = (e) => {
+  const handleOpenDialog = () => {
     setDialogOpen(true);
   };
 
