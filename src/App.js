@@ -1,7 +1,7 @@
 // name: Raymond Baird
 // date created: 03/07/2023
-// description: Project to utilize React.js to build front end multi-page web application
-// Some of the CSS content was from PedroTech and altered to suit my needs.
+// description: Project to utilize React.js. MUI, HTML5, and CSS
+// to build front end multi-page web application
 
 import "./App.css";
 import Navbar from "./components/Navbar";
@@ -14,22 +14,21 @@ import Contact from "./pages/Contact";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React from "react";
 
-
 // utilize BrowserRouter, Route, and Switch from react-router-dom
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
-        <Switch>                                    
+        <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/education" exact component={Education} />
           <Route path="/experience" exact component={Experience} />
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
         </Switch>
-        <Footer />
       </Router>
+      <Footer />
     </div>
   );
 }

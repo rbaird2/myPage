@@ -3,12 +3,11 @@ import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 import React from "react";
 
-
 function Navbar() {
   return (
     <div className="navbar">
       <div className="leftSide">
-        <img src={Logo}/>
+        <img src={Logo} />
       </div>
       <div className="rightSide">
         <Link to="/"> Home </Link>
