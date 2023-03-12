@@ -25,7 +25,7 @@ function Home() {
     <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
       <div className="headerContainer">
         <h1>Raymond Lee Baird </h1>
-        <h2>ReactJS Website Project</h2>
+        <h2>ReactJS Front End</h2>
         <Button variant="contained" onClick={handleOpenDialog}>
           CLICK ME
         </Button>
