@@ -1,6 +1,5 @@
 import BannerImage from "../assets/zen3.jpg";
 import "../styles/Home.css";
-import { Link } from "react-router-dom";
 import { ExternalLink } from 'react-external-link';
 import {
   Button,

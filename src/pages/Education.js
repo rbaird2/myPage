@@ -18,7 +18,7 @@ function Education() {
           <h2>
             Summa Cum Laude honors in the Ira A. Fulton Schools of Engineering
           </h2>
-          <h2>Skills acquired while pursuing degree:</h2>
+          <h2>Skills acquired:</h2>
           <div className="skillList">
             {SkillList.map((skillItem, key) => {
               return <SkillItem key={key} name={skillItem.name} />;
