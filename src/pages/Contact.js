@@ -18,13 +18,13 @@ function Contact() {
 
   const handleOpenDialog = (e) => {
     setDialogOpen(true);
-    setNameState("");
-    setEmailState("");
-    setMessageState("");
   };
 
   const handleCloseDialog = () => {
     setDialogOpen(false);
+    setNameState("");
+    setEmailState("");
+    setMessageState("");
   };
 
   return (
@@ -65,7 +65,11 @@ function Contact() {
           <Dialog open={dialogOpen} onClose={handleCloseDialog}>
             <DialogContent>
               <DialogContentText id="alert-dialog-description">
-                Thank you. The message isn't actually being sent at this time, however.
+                Name: {textName} <br/>
+                Email: {textEmail} <br/>
+                Message: {textMessage} <br/><br/>
+                Unfortunately, your message is not being delivered at this juncture. <br/>
+                Have a nice day.
               </DialogContentText>
             </DialogContent>
             <DialogActions>

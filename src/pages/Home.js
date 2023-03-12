@@ -1,5 +1,7 @@
 import BannerImage from "../assets/zen3.jpg";
 import "../styles/Home.css";
+import { Link } from "react-router-dom";
+import { ExternalLink } from 'react-external-link';
 import {
   Button,
   Dialog,
@@ -26,12 +28,14 @@ function Home() {
         <h1>Raymond Lee Baird </h1>
         <h2>ReactJS Website Project</h2>
         <Button variant="contained" onClick={handleOpenDialog}>
-          Hello
+          CLICK ME
         </Button>
         <Dialog open={dialogOpen} onClose={handleCloseDialog}>
           <DialogContent>
             <DialogContentText id="alert-dialog-description">
-              Hello to you.
+              Hello.<br/>
+              This site was created using mostly ReactJS, along with MUI, CSS, and HTML5. The GitHub repository can be reached
+              <ExternalLink href="https://github.com/rbaird2/myPage"> HERE</ExternalLink>
             </DialogContentText>
           </DialogContent>
           <DialogActions>
